@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1C81D1</color>
+    <color name="colorAccent">#CC0E0E</color>
+    <color name="primaryTextColor">#FCFCFC</color>
+    <color name="annotationsColor">#B9D4E9</color>
+    <color name="dateBackground">#F3F2F0</color>
+    <color name="separatorColor">#BBBBBB</color>
+    <color name="darkerColor">#C11A1A1A</color>
+    <color name="lightTextColor">#F0EEEE</color>
+    <color name="defaultText">#DD535353</color>
+    <color name="calendarColor">#FCFCFC</color>
+    <color name="menuColor">#FFFFFF</color>
+    <color name="monthTextColor">#F0EEEE</color>
+    <color name="splashBackground">#2196F3</color>
+</resources>
