@@ -94,8 +94,6 @@ class MainActivity : AppCompatActivity() {
         days.clear()
         cities.clear()
 
-        Log.w("NO CONNECTION", "TEST-1")
-
         val request = Runnable {
             val response = try {
 
@@ -103,13 +101,8 @@ class MainActivity : AppCompatActivity() {
 
             } catch (e: IOException) {
                 e.printStackTrace()
-                Log.w("NO CONNECTION", "TEST0")
                 "Error with ${e.message}."
             }
-
-            Log.w("NO CONNECTION", "TEST1")
-            Log.w("NO CONNECTION", response)
-
 
             try {
                 val forecasts: JSONArray = JSONObject(response).getJSONArray("forecasts")
